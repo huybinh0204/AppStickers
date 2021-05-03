@@ -35,6 +35,12 @@
 			</dict>
 		</dict>
 	</dict>
+
+	<key>LSApplicationQueriesSchemes</key>
+      <array>
+      <string>whatsapp</string>
+    </array>
+
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>UILaunchStoryboardName</key>

@@ -124,6 +124,9 @@ android {
     ndkVersion rootProject.ext.ndkVersion
 
     compileSdkVersion rootProject.ext.compileSdkVersion
+    aaptOptions {
+            noCompress "webp"
+        }
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
